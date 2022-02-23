@@ -1,0 +1,35 @@
+{
+  "name": "@theorylabs/project-noop-lib",
+  "version": "0.0.1",
+  "private": true,
+  "license": "(MIT or SEE LICENSE IN 🍺T️HEORYLABS_LICENSE)",
+  "author": {
+    "name": "Branden Dane",
+    "email": "Dane@TheoryLabs.dev",
+    "url": "WhoAmI.TheoryLabs.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheoryLabs/NoopLib.git"
+  },
+  "homepage": "https://github.com/TheoryLabs/NoopLib#README",
+  "bugs": {
+    "url": "https://github.com/TheoryLabs/NoopLib/issues",
+    "email": "NoopLib-Issues@TheoryLabs.dev"
+  },
+  "type": "module",
+  "workspaces": [
+    "workspaces/**/*"
+  ],
+  "scripts": {
+    "oao:help": "oao --help",
+    "oao:status": "oao status",
+    "oao:bootstrap": "oao bootstrap",
+    "oao:clean": "oao clean",
+    "oao:prepublish": "oao prepublish",
+    "oao:publish": "oao publish"
+  },
+  "devDependencies": {
+    "oao": "^2.0.2"
+  }
+}
